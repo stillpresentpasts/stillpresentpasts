@@ -1,0 +1,194 @@
+  /*styles for homepage */
+ 
+  #book-navigation-1 {
+  display:none;
+  }
+  .node {
+  padding-top: 0;
+   margin-top: 15px;
+  } 
+  
+  #sidebar-right-inner {
+  margin-top: 1.3em;
+  }
+  
+  .group-sectionintro {
+  /*background: #1c1c1c;
+    padding-left: 10px;
+  margin-top: 10px;
+  */
+  float: left;
+  width: 900px;
+
+  }
+  
+  div.fieldgroup {
+  margin:0px;
+  }
+  
+  div.fieldgroup .content {
+  padding:0;
+  }
+  
+.node-type-section .field-field-description---english {
+width: 200px;
+float: left;
+margin-left:0px;
+padding-right: 10px;
+}
+
+.node-type-section .field-field-description---korean {
+float: left;
+font-size:112%;
+width:200px;
+padding-left: 20px;
+
+}
+
+body.front .node ul{
+display;none
+}
+
+body.front .node h2{
+font-size: 95%;
+}
+
+body.front .field-field-sectionbottom img {
+border:none;
+margin:none;
+}
+
+body.front .field-field-sectionbottom h3 {
+margin:0px;
+padding:0px;
+}
+
+body.front .field-field-sectionbottom a {
+color: #5F6A8E;
+text-decoration: none;
+}
+
+#content-inner {
+padding: 0;
+}
+
+#sidebar-right {
+margin-left:600px;
+}
+
+#slideshow-placeholder {
+float:left;
+height: 210px;
+width: 200px;
+margin: 0 20px 0px 0;
+}
+
+#slideshow_container {
+float: left;
+margin-top: -5px;
+height: 210px;
+}
+
+.node {
+padding: 10px 25px 15px 15px;
+background: #1c1c1c;
+color: #ccc;
+
+}
+
+img.placeholder {
+float:left;
+margin-top: 5px;
+}
+
+#english-home {
+padding-bottom: 20px;
+line-height: normal;
+}
+
+#korean-home {
+line-height: normal;
+}
+
+#home-content {
+width: 900px;
+}
+
+
+#front-right {
+width: 200px;
+}
+
+#front-right img {
+margin-bottom: 15px;
+margin-left: 10px;
+display:block;
+}
+
+#actionlinks-home {
+background:#20232E none repeat scroll 0 0;
+bottom:42px;
+margin-left:10px;
+padding:10px 5px;
+width:190px;
+}
+
+#upper-description {
+padding-left: 10px;
+}
+
+#lower-description {
+clear: both;
+padding: 10px 20px 10px 10px;
+}
+
+#actionlinks-home ul {
+list-style: none;
+padding: 0;
+margin:0;
+}
+
+
+#actionlinks-home a {
+text-align:left;
+color: #999;
+font-size: 90%;
+padding-bottom: 8px;
+padding-left:5px;
+}
+
+#actionlinks-home a#sitemap_link {
+border-bottom: none;
+}
+
+a#exhibit_link {
+font-weight:bold;
+color: #ccc;
+padding-top: 25px;
+}
+
+#actionlinks-home a:hover {
+color: #fff;
+text-decoration:none;
+}
+
+#front-right-images {
+background:#000;
+width: 200px;
+
+}
+
+#block-block-5 {
+margin-left: 10px;
+margin-top: 2em;
+}
+
+#block-block-5 a {
+width: 190px;
+
+}
+
+a#enter_exhibit {
+font-weight:bold;
+color:#eee;
+}

@@ -1,0 +1,1 @@
+Drupal.locale = { 'strings': { "Close": "Close 닫기" } };

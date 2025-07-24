@@ -1,0 +1,19 @@
+  /*styles for section pages */
+ 
+ #sidebar-right {
+margin-left:565px;
+
+}
+
+div.fieldgroup .content {
+  padding:0;
+  }
+  
+.node {
+padding-top:0;
+}
+
+#sidebar-right-inner {
+margin:4.2em 0 0 20px;
+
+}

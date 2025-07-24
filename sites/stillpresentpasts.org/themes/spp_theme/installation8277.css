@@ -1,0 +1,18 @@
+  /*styles for installation pages */
+ 
+  .node {
+  padding-top: 1em;
+  } 
+  #sidebar-right-inner
+  {
+  margin-top: 5.5em;
+  }
+  
+  #slideshow_container {
+display:none;
+}
+
+.field-field-label {
+padding-top: 10px;
+width: 510px;
+}

@@ -1,0 +1,193 @@
+
+/* $Id: html-elements.css,v 1.1.2.1 2008/01/06 14:04:04 johnalbin Exp $ */
+
+/****
+ **** HTML ELEMENT STYLING
+ ****/
+
+
+/** fonts **/
+  body
+  {
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    font-size: 12px;
+    background: #000;
+    color: #cccccc;
+  }
+
+  /* IE 5 and 6 can't resize text that is specified in pixels. */
+  * html body
+  {
+    font-size: x-small; /* IE5 will get this value */
+    f\ont-size: small; /* IE6 will get this value */
+  }
+
+  #page
+  {
+     line-height: 1.5em;
+  }
+
+  pre, code
+  {
+    font-size: 115%; /* Monospace fonts can be hard to read */
+    font-family: "Bitstream Vera Sans Mono", "Courier New", monospace;
+  }
+
+/** headings **/
+  h1
+  {
+    font-size: 140%;
+  }
+
+  h1, h1 a, h1 a:hover
+  {
+    margin: .5em 0 .5em 0;
+    
+   color: #cc0000;
+  }
+
+  h1.title
+  {
+    font-size: 150%;
+    letter-spacing:1px;
+  }
+
+  h1.title, h1.title a, h1.title a:hover
+  {
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 0;
+    line-height: normal;
+    display: block;
+  }
+
+  h2
+  {
+    font-size: 122%;
+  }
+
+  h2, h2 a, h2 a:hover,
+  {
+    color: #444;
+    
+    margin: .5em 0 .5em 0;
+  }
+
+  h3
+  {
+    font-size: 107%;
+    font-weight: bold;
+    margin-top: 1em;
+    
+  }
+
+  h4, h5, h6
+  {
+    font-weight: bold;
+    
+  }
+
+/** block-level elements **/
+  p
+  {
+    padding: 0 0 0.5em 0;
+    margin: 0;
+  }
+
+  ol, ul, dl
+  {
+    position: relative;
+  }
+
+  pre
+  {
+    background: #ddd;
+    border: 1px solid #aaa;
+    padding: 0.75em 1.5em;
+  }
+
+  blockquote
+  {
+    border: 1px #ccc solid;
+    margin: 0.5em 1em;
+    padding: 0.3em;
+    font-style: italic;
+  }
+
+/** links **/
+  /* The order of link states are based on Eric Meyer's article:
+   * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
+   */
+  a:link,
+  a:visited
+  {
+    color: #5F6A8E;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:focus
+  {
+    color: #999;
+    text-decoration: none;
+  }
+
+  a:active,
+  a.active
+  {
+    color: #cc0000;
+  }
+
+/** tables **/
+  table
+  {
+    font-size: 100%; /* Forces font size inheritance in IE5 */
+    f\ont-size: inherit;
+  }
+
+  tr, td
+  {
+    padding: .25em;
+  }
+
+/** abbreviations **/
+  /* Date-based "abbreviations" show computer-friendly timestamps which are not
+     human-friendly. */
+  abbr.created
+  {
+    border-bottom: none;
+    text-decoration: none;
+  }
+
+/** images **/
+  img
+  {
+    border: 0;
+  }
+
+/** forms **/
+  form
+  {
+    margin: 0;
+    padding: 0;
+  }
+
+  fieldset
+  {
+    border: solid #ccc 1px;
+  }
+
+  select, input, textarea
+  {
+    font: 99% Arial, Helvetica, "Bitstream Vera Sans", sans-serif;
+    background: #999;
+    border: 1px solid #ccc;
+    color: #000; 
+    -moz-border-radius: 4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius:4px;
+border-radius: 4px;
+padding: 3px;
+  }
+
+

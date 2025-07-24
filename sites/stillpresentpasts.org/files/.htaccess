@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*).html$ http://mindfulteacher.bc.edu/$1.mp4 [R=301,L]
