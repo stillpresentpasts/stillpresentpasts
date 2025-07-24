@@ -84,12 +84,39 @@ All removed files are safely stored in `_archive/` directory:
 - Archive directory can be kept locally or backed up separately
 - No data was permanently deleted
 
+## Post-Cleanup Fixes Applied
+
+### JavaScript Issues Resolved
+- **Problem**: Missing jQuery and Drupal core JavaScript files causing errors
+- **Solution**: Created minimal jQuery/Drupal stubs in `misc/` directory
+- **Files Created**:
+  - `misc/jquery8277.js` - jQuery CDN fallback
+  - `misc/drupal8277.js` - Minimal Drupal behaviors system
+  - `misc/jquery.form8277.js` - jQuery Form plugin stub
+- **Fixed**: JavaScript references in 43 HTML files
+
+### Image Issues Resolved  
+- **Problem**: Thumbnail images missing from `war-memories.html` and other pages
+- **Solution**: Restored essential thumbnails from archive
+- **Restored**: 11 thumbnail images (*-tmb.jpg files) to `sites/stillpresentpasts.org/files/images/embedded/`
+- **Result**: Navigation thumbnails now display correctly
+
 ## GitHub Readiness
-✅ Site now under GitHub's file size limits
-✅ All links functional
+✅ Site now under GitHub's file size limits (~396MB)
+✅ All navigation links functional  
+✅ JavaScript errors resolved
+✅ Image thumbnails working
 ✅ Video content preserved
 ✅ Historical content intact
 
+## Testing Instructions
+```bash
+python3 -m http.server 8000
+# Visit: http://localhost:8000
+# Test: war-memories.html, index.html, other pages
+```
+
 ---
 *Cleanup completed: July 24, 2025*
+*JavaScript/Image fixes: July 24, 2025*
 *Total space saved: 4.1GB (92% reduction)*
